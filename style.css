@@ -1,10 +1,24 @@
-body{
-    background-color:blue;
-    margin:0;
-    font-family:Times New Roman'. Times. serif;
+body {
+    background-color: blue;
+    margin: 0;
+    font-family: Times New Roman'. Times. serif;
+
 }
 
+.inicio {
+    display: flex;
+    height: 100vh;
+}
 
-.inicio{
-    
+.foto {
+    flex: 1;
+    background-color: rgb(24, 28, 219);
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img{
+    width:300px;
+    height: auto;
+    border-radius: 8px;
 }
