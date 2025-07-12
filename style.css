@@ -13,7 +13,7 @@ body {
 .foto{
     flex: 1;
     display: flex;
-    background-color: rgb(22, 207, 37);
+    background-color: rgb(243, 243, 243);
     align-items: center;
     justify-content: center;
 }
