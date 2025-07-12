@@ -5,19 +5,20 @@ body {
 
 }
 
-.inicio {
+.inicio{
     display: flex;
     height: 100vh;
 }
 
-.foto {
+.foto{
     flex: 1;
+    display: flex;
     background-color: rgb(22, 207, 37);
     align-items: center;
     justify-content: center;
 }
 
-.foto img {
+.foto img{
     width: 300px;
     height: auto;
     border-radius: 8px;
