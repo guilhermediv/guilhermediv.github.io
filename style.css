@@ -53,13 +53,21 @@ body {
     flex-wrap: wrap;
     gap: 1.4rem;
     margin-top: 1.4rem;
+}
 
-
-    .social a{
-        display:grid ;
+    .social a {
+        display: grid;
         place-items: center;
         text-decoration: none;
-        color:aquamarine
-        
+        color: aquamarine;
+        border: 1.6px solid gray;
+        font-size: 1.5 rem;
+        border-radius: 50%;
+        padding: 0.39rem;
+        text-align: center;
     }
-}
+
+    .social a :hover{
+        color:black
+        background-color:aqua
+    }
